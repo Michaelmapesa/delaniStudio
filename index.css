@@ -1,6 +1,16 @@
 #sect1{
     background-image: url("images/h_img.jpg");
-    height: 700px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.h1{
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    width: 80px;
+    padding: 20px;
+    border-radius: 50%;
+    position: relative;
+    left: 500px;
+    top: 180px;
 }
