@@ -11,6 +11,15 @@
     padding: 20px;
     border-radius: 50%;
     position: relative;
-    left: 500px;
-    top: 180px;
+    left: 600px;
+    top: 210px;
+}
+#welcome{
+    color: whitesmoke;
+    position: relative;
+    top: 210px;
+    font-weight: bold;
+}
+.carda{
+    text-align: center;
 }
