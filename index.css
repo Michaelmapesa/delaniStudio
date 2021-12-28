@@ -15,7 +15,7 @@
     top: 210px;
 }
 #welcome{
-    color: whitesmoke;
+    color: white;
     position: relative;
     top: 210px;
     font-weight: bold;
@@ -26,4 +26,13 @@
 #cardb{
     text-align: center;
     font-weight: bold;
+    height: 280px;
+}
+#cardc{
+    background-image: url("images/s_image.jpg");
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
 }
