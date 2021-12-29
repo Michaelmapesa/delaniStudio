@@ -49,3 +49,30 @@
 #wedo{
     text-align:center;
 }
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+.row{
+    margin-left: 120px;
+}
+.portfolio{
+   height: 200px;
+   width: 250px;
+}
+#cardf{
+    margin-left: -20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+#cardg{
+    background-image: url(images/c_image\ \(1\).jpg);
+    height: 500px;
+    background-size: cover;
+}
+#cardg{
+    color: white;
+}
+#inp1{
+    
+}
