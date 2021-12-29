@@ -72,8 +72,6 @@ h3{
 }
 #cardg{
     color: white;
-}
-#inp1{
     
 }
 #portfolio1{
@@ -83,3 +81,7 @@ h3{
 .head5{
     font-weight: bold;
 }
+#portfolio2{
+    display: none;
+    text-align: center;
+}    
