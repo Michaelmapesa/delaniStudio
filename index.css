@@ -42,10 +42,10 @@
     top: 60px;
     font-weight: bold;
 }
-.row{
-    position: relative;
-    left: 120px;
+#carde{
+ justify-content: center;
 }
+    
 #wedo{
     text-align:center;
 }
