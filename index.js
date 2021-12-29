@@ -8,3 +8,8 @@ $(document).ready(function(){
       $(".port2").toggle();
     });
   });
+  $(document).ready(function(){
+    $("#colm3").click(function(){
+      $(".port3").toggle();
+    });
+  });
