@@ -29,12 +29,18 @@
     height: 280px;
 }
 #cardc{
-    
-    height: 300px;
+    background-image: url("images/s_image.jpg");
+    height: 280px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
+    background-size: cover;
+
+}
+#cardd{
     text-align: center;
+    color: white;
+    position: relative;
+    top: 60px;
+    font-weight: bold;
 }
 .row{
     position: relative;
