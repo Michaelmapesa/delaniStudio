@@ -29,10 +29,17 @@
     height: 280px;
 }
 #cardc{
-    background-image: url("images/s_image.jpg");
-    height: 280px;
-    background-size: cover;
+    
+    height: 300px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     text-align: center;
+}
+.row{
+    position: relative;
+    left: 120px;
+}
+#wedo{
+    text-align:center;
 }
