@@ -37,4 +37,12 @@ $(document).ready(function(){
       $(".hid3").hide();
     });
   });
+  $(document).ready(function(){
+    $("#hover4").mouseover(function(){
+      $(".hid4").show();
+    });
+    $("#hover4").mouseout(function(){
+      $(".hid4").hide();
+    });
+  });
   
