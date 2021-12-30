@@ -95,4 +95,8 @@ h3{
 .footer{
     text-align: center;
     font-weight: bold;
+    background-color: whitesmoke;
 }    
+#footer{
+    background-color: whitesmoke;
+}
