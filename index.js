@@ -29,4 +29,12 @@ $(document).ready(function(){
       $(".hid2").hide();
     });
   });
+  $(document).ready(function(){
+    $("#hover3").mouseover(function(){
+      $(".hid3").show();
+    });
+    $("#hover3").mouseout(function(){
+      $(".hid3").hide();
+    });
+  });
   
