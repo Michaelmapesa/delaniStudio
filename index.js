@@ -13,3 +13,8 @@ $(document).ready(function(){
       $(".port3").toggle();
     });
   });
+  $("#hover1").hover(function(){
+    $(this).css("background-color", "#FFFFFF");
+    }, function(){
+    $(this).css("background-color", "#none");
+  });
