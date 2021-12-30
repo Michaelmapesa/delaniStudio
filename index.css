@@ -100,3 +100,28 @@ h3{
 #footer{
     background-color: whitesmoke;
 }
+#inp1{
+    position: relative;
+    left: -50px;
+    color: white;
+}
+.none{
+    background-color: transparent;
+}
+#comment{
+    width: 850px;
+    position: relative;
+    left: 150px;
+}
+.hid1{
+    border: 10px solid white;
+    text-align: center;
+    height: 220px;
+    width: 260px;
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    position: absolute;
+    top: -3px;
+    display: none;
+    color: white;
+    
+}
