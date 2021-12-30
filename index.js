@@ -20,7 +20,13 @@ $(document).ready(function(){
     $("#hover1").mouseout(function(){
       $(".hid1").hide();
     });
-    
-    
+  });
+  $(document).ready(function(){
+    $("#hover2").mouseover(function(){
+      $(".hid2").show();
+    });
+    $("#hover2").mouseout(function(){
+      $(".hid2").hide();
+    });
   });
   
