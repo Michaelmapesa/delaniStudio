@@ -45,4 +45,12 @@ $(document).ready(function(){
       $(".hid4").hide();
     });
   });
+  $(document).ready(function(){
+    $("#hover5").mouseover(function(){
+      $(".hid5").show();
+    });
+    $("#hover5").mouseout(function(){
+      $(".hid5").hide();
+    });
+  });
   
