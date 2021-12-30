@@ -13,8 +13,14 @@ $(document).ready(function(){
       $(".port3").toggle();
     });
   });
-  $("#hover1").hover(function(){
-    $(this).css("background-color", "#FFFFFF");
-    }, function(){
-    $(this).css("background-color", "#none");
+  $(document).ready(function(){
+    $("#hover1").mouseover(function(){
+      $(".hid1").show();
+    });
+    $("#hover1").mouseout(function(){
+      $(".hid1").hide();
+    });
+    
+    
   });
+  
