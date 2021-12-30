@@ -85,6 +85,9 @@ h3{
     display: none;
     text-align: center;
 } 
+#cardf,#carde{
+    background-color: whitesmoke;
+}
 #portfolio3{
     display: none;
     text-align: center;
