@@ -113,15 +113,16 @@ h3{
     position: relative;
     left: 150px;
 }
-.hid1{
+.hid1,.hid2{
     border: 10px solid white;
     text-align: center;
-    height: 220px;
+    height: 215px;
     width: 260px;
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
     position: absolute;
     top: -3px;
     display: none;
     color: white;
+    font-weight: bold;
     
 }
