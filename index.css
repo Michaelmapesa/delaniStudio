@@ -113,7 +113,7 @@ h3{
     position: relative;
     left: 150px;
 }
-.hid1,.hid2,.hid3,.hid4,.hid5{
+.hid1,.hid2,.hid3,.hid4,.hid5,.hid6,.hid7,.hid8{
     border: 15px solid white;
     text-align: center;
     height: 215px;
@@ -125,4 +125,9 @@ h3{
     color: white;
     font-weight: bold;
     
+}
+#btn1{
+    background-color: transparent;
+    position: relative;
+    left: 200px;
 }

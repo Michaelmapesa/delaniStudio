@@ -53,4 +53,27 @@ $(document).ready(function(){
       $(".hid5").hide();
     });
   });
-  
+  $(document).ready(function(){
+    $("#hover6").mouseover(function(){
+      $(".hid6").show();
+    });
+    $("#hover6").mouseout(function(){
+      $(".hid6").hide();
+    });
+  });
+  $(document).ready(function(){
+    $("#hover7").mouseover(function(){
+      $(".hid7").show();
+    });
+    $("#hover7").mouseout(function(){
+      $(".hid7").hide();
+    });
+  });
+  $(document).ready(function(){
+    $("#hover8").mouseover(function(){
+      $(".hid8").show();
+    });
+    $("#hover8").mouseout(function(){
+      $(".hid8").hide();
+    });
+  });
