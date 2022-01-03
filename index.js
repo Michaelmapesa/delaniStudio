@@ -83,3 +83,21 @@ $(document).ready(function(){
     });
     
   });
+
+
+  // Subscribe a new account holder to a MailChimp list
+function subscribeSomeoneToMailChimpList()
+{
+  var options =
+  {
+    "apikey": "bb18682296f48a811fe8e56f9f9e6e3f-us20",
+    "id": "6c1b80ca3e.",
+    "email":
+    {
+      "email": "me@example.com"
+    },
+    "send_welcome": false
+  };
+  var mcSubscribeRequest = UrlFetchApp.fetch("https://us4.api.mailchimp.com/2.0/lists/subscribe.json", options);
+  var mcListObject = Utilities.jsonParse(mcSubscribeRequest.getContentText());
+}
