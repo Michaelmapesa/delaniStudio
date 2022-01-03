@@ -77,3 +77,9 @@ $(document).ready(function(){
       $(".hid8").hide();
     });
   });
+  $(document).ready(function(){
+    $("#btn1").click(function(){
+      alert($(".usr").val() + " " + "we have received your message. Thank you for reaching out to us.");
+    });
+    
+  });
