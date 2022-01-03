@@ -101,3 +101,22 @@ function subscribeSomeoneToMailChimpList()
   var mcSubscribeRequest = UrlFetchApp.fetch("https://us4.api.mailchimp.com/2.0/lists/subscribe.json", options);
   var mcListObject = Utilities.jsonParse(mcSubscribeRequest.getContentText());
 }
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color","white");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color","transparent");
+  });
+  
+});
+
+$(document).ready(function(){
+  $(".none").focus(function(){
+    $(this).css("background-color","white");
+  });
+  $(".none").blur(function(){
+    $(this).css("background-color","transparent");
+  });
+  
+});
