@@ -4,6 +4,7 @@ By Michael Mapesa Wanzala
 ## Project name
 
 Delani Studio
+![Screenshot from 2022-04-19 11-21-57](https://user-images.githubusercontent.com/93247734/163972577-093d27a5-bd71-40bb-9ce7-6a084e9770a4.png)
 
 
 ## Authors Info
